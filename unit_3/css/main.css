@@ -1,32 +1,32 @@
 h1{
-	font-family: "Adobe Caslon", serif;
+	font-family: "adobe-caslon-pro", serif;
 	font-size: 15px;
 	color: #000;
 	font-weight: normal;
 }
 
 h2{
-	font-family: "Brandon Grotesque", sans-serif;
+	font-family: "brandon-grotesque", sans-serif;
 	font-size: 10px;
 	color: #000;
 	text-transform: uppercase;
 }
 
 h6{
-	font-family: "Adobe Caslon", serif;
+	font-family: "adobe-caslon-pro", serif;
 	font-size: 9px;
 	color: #000;
 	font-style: italic;
 }
 
 p{
-	font-family: "Adobe Caslon", serif;
+	font-family: "adobe-caslon-pro", serif;
 	font-size: 11px;
 	color:rgba(112, 98, 89, .9);
 }
 
 nav a{
-	font-family: "Brandon Grotesque", sans-serif;
+	font-family: "brandon-grotesque", sans-serif;
 	font-size: 13px;
 	font-weight: bold;
 	color: #55565A;
@@ -39,5 +39,5 @@ nav a{
 }
 
 #logo {
-	max-width: 100px
+	max-width: =200px
 }
