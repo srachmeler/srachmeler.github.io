@@ -22,23 +22,24 @@ h6{
 p{
 	font-family: "adobe-caslon-pro", serif;
 	font-size: 11px;
-	color:rgba(112, 98, 89, .9);
+	color: rgba(112, 98, 89, .9);
 }
 
 nav a{
 	font-family: "brandon-grotesque", sans-serif;
-	font-size: 13px;
+	font-size: 11px;
 	font-weight: bold;
 	color: #55565A;
 	text-transform: uppercase;
+	text-decoration: none;
 	letter-spacing: 2px;
 }
 
 #intro {
 	font-size: 20px;
-	color: #000;
+	color: rgba(112, 98, 89, .9);
 }
 
 #logo {
-	max-width: 200px
+	max-width: 150px
 }
