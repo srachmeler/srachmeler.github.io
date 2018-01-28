@@ -54,10 +54,10 @@ nav a{
 
 ul {
   	font-family: adobe-caslon-pro, serif;
-	font-style: normal;
-	font-weight: 400;
+	font-style: italic;
+	font-weight: 700;
 	font-size: 14px;
-	line-height: 1.5em;
+	line-height: 2em;
 	color: #000;
 	list-style-type: none;
 }
