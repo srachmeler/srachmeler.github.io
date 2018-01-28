@@ -1,0 +1,52 @@
+h1{
+	font-family: adobe-caslon-pro, serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	color: #000;
+}
+
+h2{
+	font-family: "brandon-grotesque", sans-serif;
+	font-size: 10px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+h6{
+	font-family: adobe-caslon-pro, serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 9px;
+	color: #000;
+}
+
+p{
+	font-family: adobe-caslon-pro, serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.5em;
+	color: rgba(112, 98, 89, .9);
+}
+
+nav a{
+	font-family: "brandon-grotesque", sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #55565A;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+#intro {
+	font-size: 21px;
+	line-height: 1.75em;
+	color: rgba(112, 98, 89, .9);
+}
+
+#logo {
+	max-width: 175px
+}
