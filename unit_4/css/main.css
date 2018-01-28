@@ -53,5 +53,11 @@ nav a{
 }
 
 ul {
-  list-style-type: none;
+  	font-family: adobe-caslon-pro, serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.5em;
+	color: #000;
+	list-style-type: none;
 }
