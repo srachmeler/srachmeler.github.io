@@ -17,7 +17,7 @@ h6{
 	font-family: adobe-caslon-pro, serif;
 	font-style: italic;
 	font-weight: 400;
-	font-size: 10px;
+	font-size: 9px;
 	color: #000;
 }
 
@@ -25,13 +25,14 @@ p{
 	font-family: adobe-caslon-pro, serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 11px;
+	font-size: 12px;
+	line-height: 1.5em;
 	color: rgba(112, 98, 89, .9);
 }
 
 nav a{
 	font-family: "brandon-grotesque", sans-serif;
-	font-size: 10px;
+	font-size: 12px;
 	font-weight: bold;
 	color: #55565A;
 	text-transform: uppercase;
@@ -41,7 +42,8 @@ nav a{
 }
 
 #intro {
-	font-size: 25px;
+	font-size: 21px;
+	line-height: 1.75em;
 	color: rgba(112, 98, 89, .9);
 }
 
