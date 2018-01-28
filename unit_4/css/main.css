@@ -8,9 +8,10 @@ h1{
 
 h2{
 	font-family: "brandon-grotesque", sans-serif;
-	font-size: 10px;
+	font-size: 14px;
 	color: #000;
 	text-transform: uppercase;
+	letter-spacing: .5em;
 }
 
 h6{
@@ -25,7 +26,7 @@ p{
 	font-family: adobe-caslon-pro, serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 1.5em;
 	color: #000;
 }
@@ -38,7 +39,7 @@ nav a{
 	text-transform: uppercase;
 	text-decoration: none;
 	text-align: center;
-	letter-spacing: 2px;
+	letter-spacing: 1em;
 }
 
 #intro {
