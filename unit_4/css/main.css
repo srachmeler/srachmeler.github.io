@@ -65,6 +65,11 @@ ul{
 	width: 800px;
 }
 
+section{
+	float: right;
+	width: 50%;
+}
+
 a{
 	font-family: adobe-caslon-pro, serif;
 	font-style: normal;
