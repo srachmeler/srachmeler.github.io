@@ -6,36 +6,36 @@ body{
 	font-size: 16px;
 	color: #111820; /*Black 6*/
 	line-height: 1.5em;
-}
+	}
 
 h1{
 	font-size: 1.3em;
-}
+	}
 
 h2{
 	font-family: "brandon-grotesque", sans-serif;
 	font-size: 1.1em;
 	text-transform: uppercase;
 	letter-spacing: .1em;
-}
+	}
 
 h6{
 	font-style: italic;
 	font-weight: 300;
 	font-size: 11px;
-}
+	}
 
 p{
 	width: 30em;
 	line-height: 1.5em;
-}
+	}
 
 ul{
   	font-style: italic;
 	font-weight: 500;
 	line-height: 2em;
 	list-style-type: none;
-}
+	}
 
 /*Link Styles*/
 nav a {
@@ -48,7 +48,7 @@ nav a {
 	padding-bottom: 2px;
 	letter-spacing: .25em;
 	margin-right: 50px;
-}
+	}
 
 a{
 	text-decoration: none;
@@ -58,8 +58,8 @@ a{
 	}
 
 a:hover {
+	bottom-border: 1px;
 	padding-bottom: 2px;
-	letter-spacing: .25em;
 	}
 
 a:visited {
@@ -71,27 +71,27 @@ a:visited {
 	font-size: 21px;
 	line-height: 1.5em;
 	color: #111820;
-}
+	}
 
 #logo {
 	max-width: 175px
-}
+	}
 
 /*Classes*/
 .stationery-images{
 	width: 800px;
-}
+	}
 
 .portfolio-images{
 	width: 800px;
-}
+	}
 
 /*Body Styling*/
 head{
 	max-width: 175px;
-}
+	}
 
 section{
 	padding-left: 200px;
 	width: 50%;
-}
+	}
