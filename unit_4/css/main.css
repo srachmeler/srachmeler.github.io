@@ -47,8 +47,6 @@ nav a {
 	bottom-border: 1px;
 	padding-bottom: 2px;
 	letter-spacing: .25em;
-	display: block;
-	padding: 10px 0px;
 }
 
 a, a:hover {
@@ -72,6 +70,11 @@ a:visited {
 #logo {
 	max-width: 175px
 	}
+
+#nav {
+	display: block;
+	padding: 10px 0px;
+	}	
 
 /*Classes*/
 .stationery-images{
