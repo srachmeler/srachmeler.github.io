@@ -4,7 +4,7 @@ body{
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
-	color: #111820; /*Black 6*/
+	color: #222;
 	line-height: 1.5em;
 	}
 
@@ -65,7 +65,7 @@ a:visited {
 #intro {
 	font-size: 21px;
 	line-height: 1.5em;
-	color: #111820;
+	color: #222;
 	}
 
 #logo {
@@ -78,11 +78,11 @@ a:visited {
 
 /*Classes*/
 .stationery-images{
-	width: 40%;
+	width: 100%;
 	}
 
 .portfolio-images{
-	width: 40%;
+	width: 100%;
 	}
 
 /*Body Styling*/
