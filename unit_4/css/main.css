@@ -1,3 +1,15 @@
+nav a {
+	font-family: "brandon-grotesque", sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	color: #000;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: .25em;
+	margin-right: 20px;
+}
+
 h1{
 	font-family: adobe-caslon-pro, serif;
 	font-style: normal;
@@ -29,17 +41,6 @@ p{
 	font-size: 14px;
 	line-height: 1.5em;
 	color: #000;
-}
-
-#nav{
-	font-family: "brandon-grotesque", sans-serif;
-	font-size: 12px;
-	font-weight: 600;
-	color: #000;
-	text-transform: uppercase;
-	text-decoration: none;
-	text-align: center;
-	letter-spacing: .25em;
 }
 
 ul{
@@ -101,6 +102,3 @@ a:visited {
 	text-decoration: none;
 	color: rgba (2, 42, 58, .8)
 	}
-
-
-
