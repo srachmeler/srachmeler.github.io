@@ -98,3 +98,8 @@ main {
 section{
 	width: 30em;
 	}
+
+footer{
+	max-width: 130px;
+	position: fixed;
+}
