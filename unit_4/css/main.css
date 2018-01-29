@@ -88,7 +88,8 @@ a:visited {
 /*Body Styling*/
 head{
 	max-width: 130px;
-	}
+	position: fixed;
+}
 
 main {
 	margin: 0px 0px 0px 200px;
