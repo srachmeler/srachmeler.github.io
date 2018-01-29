@@ -69,7 +69,7 @@ a{
 	font-size: 14px;
 	line-height: 1.5em;
 	text-decoration: none;
-	color: rgba (244, 37, 52, .8)
+	color: rgba(244, 37, 52,)
 	}
 
 a:active {
@@ -79,13 +79,13 @@ a:active {
 	font-size: 14px;
 	line-height: 1.5em;
 	text-decoration: none;
-	color: rgba (244, 37, 52, .8)
+	color: rgba(244, 37, 52, .8)
 	}
 
 a:hover {
-	color: rgba (63, 174, 32, .8)
+	color: rgba(63, 174, 32, .8)
 	}
 
 a:visited {
-	color: rgba (2, 42, 58, .8)
+	color: rgba(2, 42, 58, .8)
 	}
