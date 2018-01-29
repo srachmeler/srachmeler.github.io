@@ -5,6 +5,7 @@ body{
 	font-weight: 400;
 	font-size: 16px;
 	color: #111820; /*Black 6*/
+	line-height: 1.5em;
 }
 
 h1{
@@ -20,6 +21,7 @@ h2{
 
 h6{
 	font-style: italic;
+	font-weight: 300;
 	font-size: 11px;
 }
 
@@ -40,7 +42,6 @@ nav a {
 	font-family: "brandon-grotesque", sans-serif;
 	font-size: 12px;
 	font-weight: 600;
-	color: #111820;
 	text-transform: uppercase;
 	text-decoration: none;
 	bottom-border: 1px;
@@ -50,11 +51,6 @@ nav a {
 }
 
 a{
-	font-family: adobe-caslon-pro, serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 1.5em;
 	text-decoration: none;
 	bottom-border: 1px;
 	padding-bottom: 2px;
