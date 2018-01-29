@@ -50,16 +50,11 @@ nav a {
 	margin-right: 50px;
 	}
 
-a{
+a, a:hover {
 	text-decoration: none;
 	bottom-border: 1px;
 	padding-bottom: 2px;
 	color: rgba(244, 37, 52, .8)
-	}
-
-a:hover {
-	bottom-border: 1px;
-	padding-bottom: 2px;
 	}
 
 a:visited {
