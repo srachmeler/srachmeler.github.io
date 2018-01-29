@@ -54,7 +54,7 @@ a{
 	text-decoration: none;
 	bottom-border: 1px;
 	padding-bottom: 2px;
-	color: rgba(244, 37, 52,)
+	color: rgba(244, 37, 52, .8)
 	}
 
 a:hover {
