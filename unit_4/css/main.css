@@ -66,6 +66,14 @@ ul{
 	max-width: 175px
 }
 
+.stationery-images{
+	width: 800px;
+}
+
+.portfolio-images{
+	width: 800px;
+}
+
 a{
 	font-family: adobe-caslon-pro, serif;
 	font-style: normal;
