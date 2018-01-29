@@ -1,14 +1,10 @@
-nav a {
-	font-family: "brandon-grotesque", sans-serif;
-	font-size: 12px;
-	font-weight: 600;
+/*Type Styles*/
+body{
+	font-family: adobe-caslon-pro, serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
 	color: #000;
-	text-transform: uppercase;
-	text-decoration: none;
-	bottom-border: 1px;
-	padding-bottom: 2px;
-	letter-spacing: .25em;
-	margin-right: 50px;
 }
 
 h1{
@@ -27,15 +23,7 @@ h6{
 	font-size: 11px;
 }
 
-body{
-	font-family: adobe-caslon-pro, serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	color: #000;
-
-}
-	p{
+p{
 	width: 30em;
 	line-height: 1.5em;
 }
@@ -47,27 +35,18 @@ ul{
 	list-style-type: none;
 }
 
-#intro {
-	font-size: 21px;
-	line-height: 1.5em;
+/*Link Styles*/
+nav a {
+	font-family: "brandon-grotesque", sans-serif;
+	font-size: 12px;
+	font-weight: 600;
 	color: #000;
-}
-
-#logo {
-	max-width: 175px
-}
-
-.stationery-images{
-	width: 800px;
-}
-
-.portfolio-images{
-	width: 800px;
-}
-
-section{
-	padding-left: 200px;
-	width: 50%;
+	text-transform: uppercase;
+	text-decoration: none;
+	bottom-border: 1px;
+	padding-bottom: 2px;
+	letter-spacing: .25em;
+	margin-right: 50px;
 }
 
 a{
@@ -93,3 +72,33 @@ a:hover {
 a:visited {
 	color: rgba(2, 42, 58, .8)
 	}
+
+/*IDs*/
+#intro {
+	font-size: 21px;
+	line-height: 1.5em;
+	color: #000;
+}
+
+#logo {
+	max-width: 175px
+}
+
+/*Classes*/
+.stationery-images{
+	width: 800px;
+}
+
+.portfolio-images{
+	width: 800px;
+}
+
+/*Body Styling*/
+head{
+	max-width: 175px;
+}
+
+section{
+	padding-left: 200px;
+	width: 50%;
+}
