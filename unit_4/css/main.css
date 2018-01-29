@@ -33,13 +33,17 @@ h6{
 	color: #000;
 }
 
-p{
+body{
 	font-family: adobe-caslon-pro, serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.5em;
 	color: #000;
+
+}
+	p{
+	width: 30em;
 }
 
 ul{
