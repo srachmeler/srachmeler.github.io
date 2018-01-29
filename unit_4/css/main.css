@@ -47,8 +47,9 @@ nav a {
 	bottom-border: 1px;
 	padding-bottom: 2px;
 	letter-spacing: .25em;
-	margin-right: 50px;
-	}
+	display: block;
+	padding: 10px 0px;
+}
 
 a, a:hover {
 	text-decoration: none;
