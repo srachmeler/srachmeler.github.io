@@ -61,10 +61,6 @@ a{
 	color: rgba(244, 37, 52,)
 	}
 
-a:active {
-	color: rgba(244, 37, 52, .8)
-	}
-
 a:hover {
 	color: rgba(63, 174, 32, .8)
 	}
