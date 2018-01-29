@@ -90,6 +90,10 @@ head{
 	max-width: 130px;
 	}
 
+main {
+	margin: 200px 0px 0px 0px;
+	}
+
 section{
 	padding-left: 200px;
 	width: 40%;
