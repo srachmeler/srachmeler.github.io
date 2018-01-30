@@ -97,7 +97,7 @@ a:visited {
 	}
 
 .portfolio-images{
-	width: 30em;
+	width: 50em;
 	}
 
 /*Body Styling*/
@@ -111,7 +111,7 @@ main {
 	}
 
 section{
-	width: 30em;
+	width: 50em;
 	display: block;
 	margin: 20px 0;
 	}
