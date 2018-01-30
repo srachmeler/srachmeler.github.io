@@ -45,7 +45,7 @@ ul-two{
   	font-size: 12px;
 	font-weight: 500;
 	font-style: italic;
-	line-height: 2em;
+	line-height: 1em;
 	list-style-type: none;
 	}
 
@@ -108,7 +108,7 @@ main {
 	}
 
 section{
-	width: 50em;
+	width: 35em;
 	display: block;
 	margin: 20px 0;
 	}
