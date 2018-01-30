@@ -37,6 +37,15 @@ ul{
 	list-style-type: none;
 	}
 
+ul-two{
+  	font-family: "brandon-grotesque", sans-serif;
+	font-size: 10px;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 1.5em;
+	list-style-type: none;
+	}
+
 /*Link Styles*/
 nav a {
 	font-family: "brandon-grotesque", sans-serif;
