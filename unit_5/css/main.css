@@ -32,7 +32,6 @@ p{
 
 p-two{
 	float:right;
-	width: 20em;
 }
 
 ul{
@@ -53,7 +52,7 @@ ul-two{
 	}
 
 /*Link Styles*/
-nav a {
+nav {
 	font-family: "brandon-grotesque", sans-serif;
 	font-size: 12px;
 	font-weight: 600;
