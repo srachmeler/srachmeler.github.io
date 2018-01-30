@@ -93,10 +93,6 @@ a:visited {
 	width: 100%;
 	}
 
-.portfolio-images{
-	height: 600px;
-	}
-
 /*Body Styling*/
 header{
 	max-width: 160px;
@@ -107,10 +103,14 @@ main {
 	margin: 0px 0px 0px 200px;
 	}
 
-section{
-	width: 35em;
+section {
+	margin: 20px;
+}
+
+article {
+	height: 600px;
 	display: block;
-	margin: 50px 0;
+	margin: 0 0 30px 0;
 	}
 
 footer{
