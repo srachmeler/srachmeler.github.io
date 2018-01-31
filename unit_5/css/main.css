@@ -120,7 +120,7 @@ a:hover {
 }
 
 .project-page-images {
-	width: calc(100%-415px);
+	width: calc(100% - 415px);
 	float: right;
 	margin: 10px;
 	padding 10px;	
