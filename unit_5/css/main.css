@@ -130,6 +130,7 @@ a:hover {
 /*Body Styling*/
 header{
 	max-width: 160px;
+	margin:10px;
 	position: fixed;
 }
 
@@ -157,8 +158,9 @@ article-main-half {
 
 aside {
 	float: left;
-	width:30%;
-	margin: 0;
+	width:235px;
+	padding: 10px;
+	margin: 10px 10px 10px 160px;
 }
 
 footer{
