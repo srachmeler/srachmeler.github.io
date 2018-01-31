@@ -98,8 +98,12 @@ a:hover {
 	height: 460px;
 	}
 
-.no-border {
+.no-border a:hover {
 	text-decoration: none;
+}
+
+.social-links {
+	padding-bottom: 3em;
 }
 
 .project-page-images{
