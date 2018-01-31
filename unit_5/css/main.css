@@ -114,10 +114,18 @@ a:hover {
 	padding-bottom: 3em;
 }
 
-.project-page-images{
+.project-page-images {
 	width: 100%;
 	float: right;
 	margin: 10px;	
+}
+
+.project-page-heading {
+	float: left;
+}
+
+.project-page-body {
+	float: right;
 }
 
 .overflow {
