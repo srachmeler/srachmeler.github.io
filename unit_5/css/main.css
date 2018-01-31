@@ -120,17 +120,6 @@ a:hover {
 	margin: 0 20px 0 0;	
 }
 
-.project-page-heading {
-	float: left;
-	width:300px;
-}
-
-.project-page-body {
-	float: right;
-	width: 600px;
-	margin-left:100px;
-}
-
 .overflow {
     white-space: nowrap; 
     width: 30em; 
@@ -169,6 +158,7 @@ article-main-half {
 aside {
 	float: left;
 	width:30%;
+	margin: 0;
 }
 
 footer{
