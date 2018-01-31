@@ -115,7 +115,9 @@ a:hover {
 }
 
 .project-page-images{
-	width: 100%;	
+	width: 100%;
+	float: right;
+	margin: 10px;	
 }
 
 .overflow {
@@ -124,10 +126,6 @@ a:hover {
     word-wrap:;
     overflow: hidden;
     text-overflow: ellipsis; 
-}
-
-.project-about {
-	float: right;
 }
 
 /*Body Styling*/
@@ -156,13 +154,6 @@ article-main-half {
 	height: 580px;
 	display: block;
 	margin: 10px;
-	}
-
-article-second {
-	max-width: 800px;
-	display: block;
-	margin: 10px;
-	float: right;
 	}
 
 aside {
