@@ -46,13 +46,15 @@ ul{
 	list-style-type: none;
 	}
 
-ul-two{
+ul-caption {
   	font-size: 14px;
 	font-weight: 500;
 	font-style: italic;
 	line-height: 1.5em;
 	list-style-type: none;
+	float: left;
 	}
+
 
 /*Link Styles*/
 nav {
@@ -122,6 +124,10 @@ a:hover {
     word-wrap:;
     overflow: hidden;
     text-overflow: ellipsis; 
+}
+
+.project-about {
+	float: right;
 }
 
 /*Body Styling*/
