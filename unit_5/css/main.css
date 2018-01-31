@@ -30,9 +30,10 @@ h6{
 	}
 
 p{
-	width: 30em;
+	width: 235px;
 	line-height: 1.5em;
-	margin:0;
+	margin:10px
+	padding:10px;
 	}
 
 p-two{
@@ -89,7 +90,7 @@ a:hover {
 	max-width: 175px;
 	}
 
-#li nav {
+#li-nav {
 	color: #1C1C1C;
 	font-family: "brandon-grotesque", sans-serif;
 	font-size: 11px;
