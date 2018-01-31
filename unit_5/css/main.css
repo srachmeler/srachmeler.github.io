@@ -68,7 +68,8 @@ a{	text-decoration: none;
 
 a:hover {
 	border-color: rgba(244, 37, 52, .8);
-	border: 1px solid rgba(244, 37, 52, .8);
+	border-bottom: 1px;
+	border-style: solid;
 	padding-bottom: 2px;
 	}
 
