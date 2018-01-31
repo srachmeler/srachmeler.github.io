@@ -115,7 +115,7 @@ section {
 }
 
 article {
-	max-width: 800px;
+	max-height: 600px;
 	display: block;
 	margin: 0 0 30px 0;
 	}
