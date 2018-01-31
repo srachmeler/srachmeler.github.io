@@ -124,7 +124,8 @@ a:hover {
 .project-page-images {
 	width: 100%-235px;
 	float: right;
-	margin: 0 20px 0 0;	
+	margin: 10px
+	padding 10px;	
 }
 
 .overflow {
