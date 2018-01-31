@@ -133,6 +133,12 @@ a:hover {
     text-overflow: ellipsis; 
 }
 
+.project-summary {
+	width: 235px
+	margin:10px;
+	padding:10px;
+}
+
 /*Body Styling*/
 header{
 	max-width: 160px;
@@ -174,6 +180,4 @@ aside {
 
 footer{
 	max-width: 160px;
-	float: left;
-	position:fixed;
 }
