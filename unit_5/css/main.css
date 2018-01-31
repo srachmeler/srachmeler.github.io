@@ -146,7 +146,12 @@ article-second {
 	max-width: 800px;
 	display: block;
 	margin: 10px;
+	float: right;
 	}
+
+aside {
+	float: left;
+}
 
 footer{
 	max-width: 160px;
