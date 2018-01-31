@@ -116,7 +116,8 @@ a:hover {
 }
 
 .social-links {
-	padding-bottom: 3em;
+	margin:10px;
+	padding: 10px 10px 3em 10px;
 }
 
 .project-page-images {
@@ -136,7 +137,6 @@ a:hover {
 .project-summary {
 	width: 235px;
 	margin:10px;
-	padding:10px;
 }
 
 /*Body Styling*/
