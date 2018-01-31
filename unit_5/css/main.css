@@ -124,7 +124,21 @@ section {
 	margin: 10px;
 }
 
-article {
+article-main-one {
+	width: 510px;
+	height: 480px;
+	display: block;
+	margin: 10px;
+	}
+
+article-main-half {
+	width: 255px;
+	height: 480px;
+	display: block;
+	margin: 10px;
+	}
+
+article-second {
 	max-width: 800px;
 	display: block;
 	margin: 10px;
