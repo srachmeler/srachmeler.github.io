@@ -99,7 +99,7 @@ a:hover {
 	}
 
 .no-border {
-	border-bottom: none;
+	text-decoration: none;
 }
 
 .project-page-images{
