@@ -122,17 +122,19 @@ a:hover {
 
 .project-page-heading {
 	float: left;
+	width:300px;
 }
 
 .project-page-body {
 	float: right;
+	width: 600px;
+	margin-left:100px;
 }
 
 .overflow {
     white-space: nowrap; 
     width: 30em; 
-    word-wrap:;
-    overflow: hidden;
+	overflow: hidden;
     text-overflow: ellipsis; 
 }
 
