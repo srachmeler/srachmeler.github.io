@@ -115,9 +115,9 @@ a:hover {
 }
 
 .project-page-images {
-	width: 100%;
+	width: 70%;
 	float: right;
-	margin: 10px;	
+	margin: 0 20px 0 0;	
 }
 
 .project-page-heading {
@@ -168,6 +168,7 @@ article-main-half {
 
 aside {
 	float: left;
+	width:30%;
 }
 
 footer{
