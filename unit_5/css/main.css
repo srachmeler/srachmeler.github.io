@@ -91,6 +91,13 @@ a:hover {
 	padding: 0px 20px;
 	}	
 
+.overflow {
+    white-space: nowrap; 
+    width: 30em; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
 /*Classes*/
 .images{
 	width: 490px;
