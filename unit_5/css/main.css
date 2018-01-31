@@ -81,7 +81,6 @@ a:hover {
 
 #logo {
 	max-width: 175px;
-	border-bottom: none;
 	}
 
 #nav {
@@ -98,6 +97,10 @@ a:hover {
 	width: 235px;
 	height: 460px;
 	}
+
+.no-border {
+	border-bottom: none;
+}
 
 .project-page-images{
 	width: 100%;	
