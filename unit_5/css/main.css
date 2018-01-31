@@ -51,15 +51,21 @@ ul-two{
 
 /*Link Styles*/
 nav {
+	color: #1C1C1C;
 	font-family: "brandon-grotesque", sans-serif;
 	font-size: 11px;
 	font-weight: 600;
 	text-transform: uppercase;
 	text-decoration: none;
-	border-bottom: 1px;
-	padding-bottom: 2px;
 	letter-spacing: .25em;
 	display: block;
+}
+
+nav:hover {
+	border-color: rgba(244, 37, 52, .8);
+	border-bottom: 1px;
+	padding-bottom: 2px;
+	color: rgba(244, 37, 52, .8);
 }
 
 a{	text-decoration: none;
@@ -70,12 +76,9 @@ a:hover {
 	border-color: rgba(244, 37, 52, .8);
 	border-bottom: 1px;
 	padding-bottom: 2px;
-	color: rgba(244, 37, 52, .8)
+	color: rgba(244, 37, 52, .8);
 	}
 
-a:visited {
-	color: rgba(2, 42, 58, .8)
-	}
 
 /*IDs*/
 #intro {
