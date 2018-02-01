@@ -45,7 +45,7 @@ ul{
 	list-style-type: none;
 	}
 
-ul-caption {
+ul {
   	font-size: 14px;
 	font-weight: 500;
 	font-style: italic;
@@ -113,6 +113,7 @@ a:hover {
 
 .no-border a:hover {
 	text-decoration: none;
+	align-content: center;
 }
 
 .social-links {
@@ -173,7 +174,7 @@ article-main-half {
 
 aside {
 	float: left;
-	width: 235px;
+	width: 25%;
 	padding: 10px;
 	margin: 10px;
 }
