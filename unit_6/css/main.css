@@ -10,6 +10,8 @@
 @media only screen and (max-width: 768px){
 	[class*="col-"] {
 	/*mobile*/
+	float:left;
+	padding:3%;
 	width:100%;
 	}
 }
@@ -18,12 +20,14 @@
 	/*tablets*/
 .col-1 {
 	width: 33%;
+	float:left;
 	padding-bottom:4%;
 	border-bottom: 1px solid #BCBEC0;
 }
 
 .col-2 {
 	width: 67%;
+	float:left;
 	padding-bottom:4%;
 	border-bottom: 1px solid #BCBEC0;
 	}
@@ -33,12 +37,14 @@
 	/*desktop*/
 .col-1 {
 	width: 33%;
+	float:left;
 	padding-bottom:4%;
 	border-bottom: 1px solid #BCBEC0;
 }
 
 .col-2 {
 	width: 67%;
+	float:left;
 	padding-bottom:4%;
 	border-bottom: 1px solid #BCBEC0;
 	}
