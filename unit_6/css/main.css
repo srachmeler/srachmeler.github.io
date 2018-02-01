@@ -11,7 +11,7 @@
 	[class*="col-"] {
 	/*mobile*/
 	float:left;
-	padding:3%;
+	margin:5%;
 	width:100%;
 	}
 }
@@ -19,34 +19,70 @@
 @media only screen and (min-width:600px){
 	/*tablets*/
 .col-1 {
-	width: 33%;
+	width: 25%;
 	float:left;
-	padding-bottom:4%;
+	padding:5%;
 	border-bottom: 1px solid #BCBEC0;
+	border-bottom-width: 15%;
 }
 
 .col-2 {
-	width: 67%;
+	width: 50%;
 	float:left;
-	padding-bottom:4%;
+	padding:5%;
 	border-bottom: 1px solid #BCBEC0;
+	border-bottom-width: 40%;
 	}
 
+.col-3 {
+	width: 33.33%;
+	float:left;
+	padding:5%;
+	border-bottom: 1px solid #BCBEC0;
+	border-bottom-width: 23.33%;
+	}
+
+.col-4 {
+	width: 75%;
+	float:left;
+	padding:5%;
+	border-bottom: 1px solid #BCBEC0;
+	border-bottom-width: 65%;
+	}
 }
+
 @media only screen and (min-width: 768px){
 	/*desktop*/
 .col-1 {
-	width: 33%;
+	width: 25%;
 	float:left;
-	padding-bottom:4%;
+	padding:5%;
 	border-bottom: 1px solid #BCBEC0;
+	border-bottom-width: 15%;
 }
 
 .col-2 {
-	width: 67%;
+	width: 50%;
 	float:left;
-	padding-bottom:4%;
+	padding:5%;
 	border-bottom: 1px solid #BCBEC0;
+	border-bottom-width: 40%;
+	}
+
+.col-3 {
+	width: 33.33%;
+	float:left;
+	padding:5%;
+	border-bottom: 1px solid #BCBEC0;
+	border-bottom-width: 23.33%;
+	}
+
+.col-4 {
+	width: 75%;
+	float:left;
+	padding:5%;
+	border-bottom: 1px solid #BCBEC0;
+	border-bottom-width: 65%;
 	}
 }
 
@@ -145,6 +181,7 @@ h6{
 footer {
 	padding-top: 4%;
 	text-align: center;
+	line-height: .15em;
 	border-top: 2px solid #1C1C1C;
 	border-top-width: 0 auto;
 
