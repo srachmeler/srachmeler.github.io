@@ -1,3 +1,13 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0 auto;
+	padding:20px;
+	width: 1200px;
+}
+
 /*------------------>heading<------------------*/
 .heading {
 	margin: 10px auto;
@@ -66,12 +76,6 @@ li.nav a:hover{
 
 /*------------------>body<------------------*/
 
-body{
-	margin: 0 auto;
-	padding:20px;
-	width: 1200px;
-}
-
 .content-wrapper{
 	display:inline-grid;
 	box-sizing: border-box;
@@ -105,7 +109,7 @@ ul.grid {
 
 li.two-per-row {
 	display: inline-block;
-    width: 50%;
+    width: 33.33%;
     padding:2%;
     box-sizing: border-box;
     margin-bottom: 2%;
@@ -143,9 +147,7 @@ footer:before {
 	border-bottom: 2px solid #1c1c1c; /* This creates the border. Replace black with whatever color you want. */
 }
 
-*{
-	box-sizing: border-box;
-}
+
 /*-------------->media queries<-------------*/
 
 @media only screen and (max-width:768px){
@@ -212,6 +214,8 @@ p.title {
 	line-height:1em;
 	float:left;
 	display:table-cell;
+	border-bottom:2px solid #fff;
+	padding-bottom:2px;
 }
 
 p.title:hover {
@@ -233,6 +237,8 @@ p.tags {
 	float:right;
 	display:table-cell;
 	margin-left:2%;
+	border-bottom:2px solid #fff;
+	padding-bottom:2px;
 }
 
 p.tags:hover {
