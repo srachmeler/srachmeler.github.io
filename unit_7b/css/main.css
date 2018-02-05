@@ -1,12 +1,109 @@
 *{
+	margin:0;
+	padding:0;
 	box-sizing: border-box;
 }
 
 body{
 	margin: 0 auto;
 	padding:20px;
-	width: 1200px;
+	width: 95%;
 }
+
+.content-wrapper{
+	display:inline-grid;
+}
+
+/*--------------->text styles<---------------*/
+
+body {
+	text-rendering: optimizeLegibility;
+	font-family: adobe-caslon-pro, serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+
+#intro{
+	padding:3em 0 3em 33%;
+}
+
+p{
+	font-size: 16px;
+	color: #1C1C1C;
+	line-height: 1.5em;
+}
+
+h1{
+	font-size: 2em;
+	font-weight:100;
+	font-style:italic;
+	line-height:175%;
+	}
+
+h2{
+	font-family: "brandon-grotesque", sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	line-height:.25em;
+	}
+
+p.title {
+	font-family: "brandon-grotesque", sans-serif;
+	font-size: .85em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	line-height:1em;
+	float:left;
+	border-bottom:2px solid #fff;
+	padding:.75em 0 .2em 0;
+}
+
+p.title:hover {
+	font-family: "brandon-grotesque", sans-serif;
+	font-size: .85em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	line-height:1em;
+	float:left;
+	border-bottom:2px solid #1c1c1c;
+	padding:.75em 0 .2em 0;
+}
+
+p.tags {
+	font-style: italic;
+	font-weight: 500;
+	font-size: .75em;
+	float:right;
+	margin-left:2%;
+	border-bottom:2px solid #fff;
+	padding:.75em 0 0 0;
+}
+
+p.tags:hover {
+	font-style: italic;
+	font-weight: 500;
+	font-size: .75em;
+	float:right;
+	margin-left:2%;
+	border-bottom:2px solid #1c1c1c;
+	padding:.75em 0 0 0;
+}
+
+h5{
+	font-family: "brandon-grotesque", sans-serif;
+	text-transform:uppercase;
+	font-weight: 600;
+	font-size: 50%;
+	letter-spacing:.1em;
+	}
+
+h6{
+	font-style: italic;
+	font-weight: 500;
+	font-size: .75em;
+	}
 
 /*------------------>heading<------------------*/
 .heading {
@@ -57,7 +154,7 @@ li.nav a:hover{
 }
 
 .img-cap{
-	padding-top:2%;
+	padding: 2% auto;
 	}
 
 #nav-img {
@@ -75,11 +172,6 @@ li.nav a:hover{
 }
 
 /*------------------>body<------------------*/
-
-.content-wrapper{
-	display:inline-grid;
-	box-sizing: border-box;
-}
 
 .welcome{
 	width:100%
@@ -104,15 +196,14 @@ ul.grid {
 	position: relative;
     display: flex;
     flex-wrap: wrap;
-    list-style-type: disc;
+    width:100%;
 }
 
 li.two-per-row {
 	display: inline-block;
-    width: 33.33%;
-    padding:2%;
-    box-sizing: border-box;
+	padding:2%;
     margin-bottom: 2%;
+/*    width:50%;*/
 }
 
 li.two-per-row:after {
@@ -120,15 +211,18 @@ li.two-per-row:after {
     display: block; /* This will put the pseudo element on its own line. */
     margin: 0 auto 2em auto; /* This will center the border. */
     width: 100%; /* Change this to whatever width you want. */
-    padding-top: 60px; /* This creates some space between the element and the border. */
+    padding-top: 2.5em; /* This creates some space between the element and the border. */
 	border-bottom: 1px solid #999; /* This creates the border. Replace black with whatever color you want. */
 }
+
+img{
+	width:100%;
+	}
 
 li.icons {
 	display: inline;
     width: 100%;
     text-align: center;
-    box-sizing: border-box;
     padding:2em;
 }
 
@@ -150,118 +244,32 @@ footer:before {
 
 /*-------------->media queries<-------------*/
 
-@media only screen and (max-width:768px){
-	[class*="grid"] {
 	/*mobile*/
+	@media only screen and (max-width:750px){
+	[class*="two-per-row"] {
+	text-align:center;
 	float:left;
 	width:100%;
+	margin:0 auto;
 	}
 }
 
-@media only screen and (min-width:600px){
-	/*tablet*/{
+	/*tablet*/
+	@media only screen and (min-width:751px){
+	[class*="two-per-row"] {
 	float:left;
-	width:100%;
-}
+	width:50%;
+/*	margin:0 10%;*/
+	}
 }
 
-@media only screen and (min-width:768px){
 	/*desktop*/
-
-}
-
-
-/*--------------->text styles<---------------*/
-
-body {
-	text-rendering: optimizeLegibility;
-	font-family: adobe-caslon-pro, serif;
-	font-style: normal;
-	font-weight: 400;
-}
-
-
-#intro{
-	padding:3em 0 3em 33%;
-}
-
-p{
-	font-size: 16px;
-	color: #1C1C1C;
-	line-height: 1.5em;
-}
-
-h1{
-	font-size:2em;
-	line-height:200%;
-	font-style:italic;
-	letter-spacing:.01em;
-	}
-
-h2{
-	font-family: "brandon-grotesque", sans-serif;
-	font-size: 1em;
-	text-transform: uppercase;
-	letter-spacing: .1em;
-	line-height:.25em;
-	}
-
-p.title {
-	font-family: "brandon-grotesque", sans-serif;
-	font-size: .85em;
-	text-transform: uppercase;
-	letter-spacing: .1em;
-	line-height:1em;
+	@media only screen and (min-width:1000px){
+	[class*="two-per-row"] {
 	float:left;
-	display:table-cell;
-	border-bottom:2px solid #fff;
-	padding-bottom:2px;
-}
-
-p.title:hover {
-	font-family: "brandon-grotesque", sans-serif;
-	font-size: .85em;
-	text-transform: uppercase;
-	letter-spacing: .1em;
-	line-height:1em;
-	float:left;
-	display:table-cell;
-	border-bottom:2px solid #1c1c1c;
-	padding-bottom:2px;
-}
-
-p.tags {
-	font-style: italic;
-	font-weight: 500;
-	font-size: .75em;
-	float:right;
-	display:table-cell;
-	margin-left:2%;
-	border-bottom:2px solid #fff;
-	padding-bottom:2px;
-}
-
-p.tags:hover {
-	font-style: italic;
-	font-weight: 500;
-	font-size: .75em;
-	float:right;
-	display:table-cell;
-	margin-left:2%;
-	border-bottom:2px solid #1c1c1c;
-	padding-bottom:2px;
-}
-
-h5{
-	font-family: "brandon-grotesque", sans-serif;
-	text-transform:uppercase;
-	font-weight: 600;
-	font-size: 50%;
-	letter-spacing:.1em;
+	width:33%;
+	margin:0 auto;
 	}
+}
 
-h6{
-	font-style: italic;
-	font-weight: 500;
-	font-size: .75em;
-	}
+
