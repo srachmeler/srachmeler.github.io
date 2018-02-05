@@ -1,0 +1,135 @@
+body {
+	text-rendering: optimizeLegibility;
+	font-family: adobe-caslon-pro, serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.wrapper {
+	margin:15px;
+	padding:20px 0;
+	max-width:2000px;
+	width:95%;
+	}
+
+header {
+	padding: 10px 0;
+	}
+
+.columns {
+	display:flex;
+	flex-flow:row wrap;
+	margin:10px 0;
+	}
+
+.column {
+	flex:1;
+	bottom-border:1px solid #999;
+	margin:0 8px 40px 8px;
+	&:first-child {margin-left: 0;}
+	&:last-child {margin-right:0;}
+	}
+
+.img-cap{
+	padding-top:2%;
+	}
+
+h1{
+	font-size:2em;
+	line-height:200%;
+	font-style:normal;
+	letter-spacing:.01em;
+	}
+
+h2{
+	font-family: "brandon-grotesque", sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	line-height:.25em;
+	}
+
+h5{
+	font-family: "brandon-grotesque", sans-serif;
+	text-transform:uppercase;
+	font-weight: 600;
+	font-size: 50%;
+	letter-spacing:.1em;
+	}
+
+h6{
+	font-style: italic;
+	font-weight: 500;
+	font-size: .75em;
+	}
+
+p{
+	font-size: 16px;
+	color: #1C1C1C;
+	line-height: 1.5em;
+	}
+
+p.title {
+	font-family: "brandon-grotesque", sans-serif;
+	font-size: .85em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	line-height:1.5em;
+	float:left;
+	display:table-cell;
+	}
+
+p.title:hover {
+	border-bottom:2px solid #1c1c1c;
+	padding-bottom:2px;
+	}
+
+p.tags {
+	font-style: italic;
+	font-weight: 500;
+	font-size: .75em;
+	float:right;
+	margin-left:2%;
+	}
+
+p.tags:hover {
+	border-bottom:2px solid #1c1c1c;
+	padding-bottom:2px;
+	}
+
+footer {
+	text-align: left
+	line-height: .15em;
+	}	
+
+footer:before {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto 2em auto; /* This will center the border. */
+    width: 96%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+	border-bottom: 2px solid #1c1c1c; /* This creates the border. Replace black with whatever color you want. */
+	}
+
+/*-------------->media queries<-------------*/
+
+@media screen and (max-width: 980px) {
+	.columns .column {
+		margin-bottom: 5px;
+		flex-basis: 50%;
+		&:nth-last-child(2) {
+			margin-right:0;
+		}
+		&:last-child {
+			flex-basis: 100%;
+			margin:0;
+			}
+		}
+	}
+
+@media screen and (max-width: 680px) {
+	.columns .column {
+		flex-basis: 100%;
+		margin: 0 0 5px 0;
+		}
+	}
