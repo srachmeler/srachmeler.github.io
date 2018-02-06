@@ -1,0 +1,301 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+	font-family: adobe-caslon-pro, serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	color: #1c1c1c;
+	line-height: 1.5em;
+	text-rendering: optimizeLegibility;
+	width:95%;
+	}
+
+#content-wrapper{
+	display:inline;
+	}
+
+.heading {
+	margin: 10px auto;
+	width: 100%;
+	border-bottom: 2px solid #1c1c1c;
+	display: inline-block;
+}
+
+
+/*--------------->text styles<---------------*/
+
+p{
+	border-bottom: 2px solid #fff;
+	vertical-align:baseline;
+	}
+
+p.title {
+	font-family: "brandon-grotesque", sans-serif;
+	font-size: .875em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	float:left;
+	padding-top: .5em;
+}
+
+p.title:hover {
+	color: #f42534;
+}
+
+p.tags {
+	font-style: italic;
+	font-weight: 500;
+	font-size: .75em;
+	float:right;
+	margin-left:2%;
+	padding-top: .75em;
+}
+
+p.tags:hover {
+	font-style: italic;
+	font-weight: 500;
+	font-size: .75em;
+	float:right;
+	margin-left:2%;
+	color: #f42534;
+}
+
+h1{
+	font-size: 2em;
+	font-weight: 100;
+	font-style: italic;
+	line-height: 175%;
+	}
+
+h2{
+	font-family: "brandon-grotesque", sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	line-height:.25em;
+	}
+
+h5{
+	font-family: "brandon-grotesque", sans-serif;
+	text-transform:uppercase;
+	font-weight: 600;
+	font-size: 50%;
+	letter-spacing:.1em;
+	}
+
+h6{
+	font-style: italic;
+	font-weight: 500;
+	font-size: .75em;
+	}
+
+
+a {
+	color: #1c1c1c;
+	text-decoration:none;
+	border-bottom: 2px solid #fff;
+	padding:.75em 0 0 0;
+	border-bottom: 2px solid #f42534;
+	padding:.75em 0 0 0;
+}
+
+a:hover {
+	color: #f42534;
+	}
+
+img {
+	border-bottom: 0;
+}
+
+nav {
+	font-family: "brandon-grotesque", sans-serif;
+	font-size: .875em;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: .25em;
+	}
+
+nav a {
+	border-bottom: 2px solid #fff;
+	padding-left: 2em;
+	}
+
+
+ul.nav {
+	padding:1em;
+	}
+
+li {
+	float:left;
+	list-style-type: none;
+	}
+
+li.nav {
+	list-style-type: none;
+	display:inline-block;
+	float:right;
+	}
+
+.img-cap{
+	padding: 2% auto;
+	}
+
+#nav-img {
+	padding:0 0 1em 2em;
+	float:left;
+	box-sizing: border-box;
+	}
+
+#intro-img {
+	padding:0 1%;
+	}
+
+
+/*------------------>body<------------------*/
+
+.grid {
+	width:100%;
+	margin:0 auto;
+}
+
+ul.grid {
+	list-style-type: none;
+	position: relative;
+    display: flex;
+    flex-wrap: wrap;
+	}
+
+li.hello {
+	display: inline-block;
+	padding:2% .75% 0 .75%;
+    margin-bottom: 2%;
+	}
+
+li.hello:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */ 
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    margin: 0 auto 2em auto;
+    /* This will center the border. */
+    width: 96%;
+    /* Change this to whatever width you want. */
+    padding-top: 20px;
+    /* This creates some space between the element and the border. */
+	border-bottom: 2px solid #1c1c1c;
+	/* This creates the border. Replace black with whatever color you want. */
+	}
+
+li.two-per-row {
+	display: inline-block;
+	padding:2% .75% 0 .75%;
+    margin-bottom: 2%;
+	}
+
+li.two-per-row:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */ 
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    margin: 0 auto .5em auto;
+    /* This will center the border. */
+    width: 100%; 
+    /* Change this to whatever width you want. */
+    padding-top: 2.5em;
+    /* This creates some space between the element and the border. */
+	border-bottom: 1px solid #999;
+	/* This creates the border. Replace black with whatever color you want. */
+	}
+
+img {
+	width:100%;
+	}
+
+.img-link {
+	border-bottom: 2px solid #fff;
+	padding:.75em 0 0 0;
+	}
+
+li.icons {
+	display: inline;
+    width: 100%;
+    text-align: center;
+    padding:2em;
+	}
+
+footer {
+	text-align: left
+	line-height: .15em;
+	width: 100%;
+	padding-top: 20px;
+	border-top: 2px solid #1c1c1c;
+	}
+
+
+/*-------------->media queries<-------------*/
+
+	/*desktop*/
+	@media only screen and (min-width:1001px){
+	[class*="two-per-row"] {
+	float:left;
+	width:33%;
+	}
+}
+	/*tablet*/
+	@media only screen and (max-width:1000px){
+	[class*="two-per-row"] {
+	float:left;
+	width:50%;
+	}
+}
+
+	/*mobile*/
+	@media only screen and (max-width:700px){
+
+	[class*="two-per-row"] {
+		float:none;
+		width:100%;
+		}
+
+	[class*="nav"] {
+		float:none;
+		padding-left:0;
+		font-size:1.1em;
+		line-height: 2em;
+		text-align:center;
+		width:100%;
+		}
+
+	[id*="nav-img"] {
+		margin:0 auto;
+		}	
+
+	[class*="hello"] {
+		display:inline;
+		margin:0 auto;
+		padding:0 auto;
+		width:100%;
+		}
+
+	[id*="intro-img"] {
+		width:67%;
+		margin:0 auto;
+		}
+
+	h1 {
+		font-size:1.5em;
+		line-height:150%;
+	}
+
+	[class*="tags"]{
+		display:none;
+	}
+}
+
+
