@@ -1,13 +1,10 @@
 *{
-	margin: 0 auto;
+	margin: 0;
 	box-sizing: border-box;
-	max-width:1200px;
-/*	padding: 8px;*/
+	padding: 0;
 }
 
 body {
-	margin: 0 auto;
-	padding: 8px;
 	font-family: adobe-caslon-pro, serif;
 	font-size: 16px;
 	font-style: normal;
@@ -15,30 +12,14 @@ body {
 	color: #1c1c1c;
 	line-height: 1.5em;
 	text-rendering: optimizeLegibility;
-	width:100%;
-	}
+}
 
 /*--------------->classes & ids<---------------*/
 
 .heading {
-	width: 100%;
 	padding: 8px;
+	border-bottom:.5em solid;
 }
-
-.heading:after {
-    content: "";
-    /* This is necessary for the pseudo element to work. */ 
-    display: block;
-    /* This will put the pseudo element on its own line. */
-    margin: 1em auto;
-    /* This will center the border. */
-    width: 100%;
-    /* Change this to whatever width you want. */
-    padding-top: 1em;
-    /* This creates some space between the element and the border. */
-	border-bottom: 8px solid #1c1c1c;
-	/* This creates the border. Replace black with whatever color you want. */
-	}
 
 .intro {
 	width:100%;
@@ -65,11 +46,8 @@ body {
 
 #nav-img {
 	float:left;
-	}
-
-#intro-img {
-	width:9%;
-	}
+	width: 20em;
+}
 
 #synop {
 	float:left;
@@ -85,7 +63,10 @@ body {
 .img-link {
 	border-bottom: 2px solid #fff;
 	padding:.75em 0 0 0;
-	}
+}
+.img-link img {
+	width:100%;
+}
 
 
 /*--------------->text styles<---------------*/
@@ -93,7 +74,7 @@ p {
 	padding-bottom: 1em;
 }
 
-p.title {
+.title {
 	font-family: "brandon-grotesque", sans-serif;
 	font-size: .7em;
 	text-transform: uppercase;
@@ -103,11 +84,11 @@ p.title {
 	color: rgba(85, 86, 90, .75);
 }
 
-p.title:hover {
+.title:hover {
 	color: #f42534;
 }
 
-p.tags {
+.tags {
 	font-style: italic;
 	font-weight: 500;
 	font-size: .75em;
@@ -117,7 +98,7 @@ p.tags {
 	color: rgba(85, 86, 90, .75);
 }
 
-p.tags:hover {
+.tags:hover {
 	font-style: italic;
 	font-weight: 500;
 	font-size: .75em;
@@ -219,18 +200,17 @@ ul {
 	padding:0;
 }
 
-ul.social {
+.social {
 	width:33%;
 	float:right;
 }
 
-ul.grid {
+.grid {
 	list-style-type: none;
 	position: relative;
     display: flex;
     flex-wrap: wrap;
 	}
-
 li {
 	list-style-type: none;
 	line-height:1.5em;
@@ -294,14 +274,12 @@ li.two-per-row:after {
 	/* This creates the border. Replace black with whatever color you want. */
 	}
 
-li.icons {
+.icons {
 	float:right;
 	padding-left:2em;
 	}
 
-img {
-	width:100%;
-	}
+
 
 footer {
 	text-align: left;
@@ -311,22 +289,27 @@ footer {
 	border-top: 4px solid #1c1c1c;
 	float:left;
 	}
-
+.clearfix:after {
+	display:block;
+	clear:both;
+	content:"";
+}
 
 /*-------------->media queries<-------------*/
 
 	/*desktop*/
-	@media only screen and (min-width:1101px){
-	[class*="two-per-row"] {
+	.two-per-row {
 	float:left;
-	width:33%;
+	width: 32.33%;
 	}
-}
+
 	/*tablet*/
 	@media only screen and (max-width:1100px){
-	[class*="two-per-row"] {
-	float:left;
+	.two-per-row {
 	width:50%;
+	}
+	.two-per-row:nth-of-type(3n+2) {
+		margin:0;
 	}
 }
 
@@ -348,35 +331,26 @@ footer {
 }
 
 	/*mobile*/
-	@media only screen and (max-width:705px){
+@media only screen and (max-width:705px){
 
-	[class*="two-per-row"] {
+	.two-per-row {
 		float:none;
 		width:100%;
 		}
 
-	[class*="nav"] {
-		float:none;
-		padding-left:0;
-		font-size:1.1em;
-		line-height: 2em;
-		text-align:center;
-		width:100%;
-		}
-
-	[id*="nav-img"] {
+	#nav-img {
 		margin:0 auto;
 		width:100%;
-		}	
+	}	
 
-	[class*="hello"] {
+	.hello {
 		display:inline;
 		margin:0 auto;
 		padding:0 auto;
 		width:100%;
 		}
 
-	[id*="intro-img"] {
+	#intro-img {
 		width:67%;
 		margin:0 auto;
 		}
@@ -386,7 +360,7 @@ footer {
 		line-height:150%;
 	}
 
-	[class*="tags"]{
+	.tags {
 		display:none;
 	}
 }
