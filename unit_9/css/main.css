@@ -172,6 +172,10 @@ aside {
     padding: 1em 1em .5em 1%;
 	}
 
+.left {
+	float:left;
+}
+
 section {
 	width:66.67%;
 	float:left;
