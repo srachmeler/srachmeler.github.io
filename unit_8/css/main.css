@@ -179,6 +179,10 @@ nav a {
 /*------------------>tags<------------------*/
 
 
+header {
+	padding:25px;
+	}
+
 aside{
 	float:left;
 	width:33%;
@@ -193,6 +197,7 @@ article {
 section {
 	margin-bottom:1em;
 	overflow:hidden;
+	padding:25px;
 }
 
 
