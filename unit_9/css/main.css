@@ -1,3 +1,9 @@
+/*reference
+		color: rgba(115, 134, 153, .67) - light gray
+		color: #1c1c1c - site black
+		color: #6EBF58 - green
+		color: #FE6359 - red*/
+
 * {
 	margin:0;
 	padding:0;
@@ -21,10 +27,9 @@ h1{
 	}
 
 h2{
-	font-family: "brandon-grotesque", sans-serif;
-	font-size:1.4em;
-	font-weight:600;
-	color: #6EBF58;
+	font-size:1.75em;
+	font-weight:400;
+	color: rgba(115, 134, 153, .67);
 	}
 
 h3{
@@ -32,7 +37,7 @@ h3{
 	font-size:1em;
 	font-weight:600;
 	text-transform:uppercase;
-	color: rgba(115, 134, 153, .67);
+	color: #1c1c1c;
 	}
 
 h4{
@@ -40,14 +45,21 @@ h4{
 	font-size:.75em;
 	font-weight:600;
 	text-transform:uppercase;
+	color: #1c1c1c;
 	}
 
 h5{
 	font-family: "brandon-grotesque", sans-serif;
 	font-size:.75em;
-	font-weight:400;
-	text-transform:uppercase;
+	font-weight:600;
+	display:inline;
 	}
+
+.uppercase {
+	text-transform:uppercase;
+	font-weight:400;
+	font-size:.7em;
+}
 
 h6{
 	font-size:.75em;
@@ -84,17 +96,18 @@ p{
 
 nav {
 	font-family: "brandon-grotesque", sans-serif;
-	font-size:1em;
+	font-size:.75em;
 	font-weight:600;
 	text-transform:uppercase;
 	margin: auto;
+	letter-spacing:.1em;
 }
 
 nav a {
 	border-bottom: .1em solid #fff;
 	float:left;
 	margin:40px 12px;
-	color: rgba(115, 134, 153, .67);
+	color: #1c1c1c;
 }
 
 nav a:hover {
@@ -212,6 +225,11 @@ footer {
 	width:100%;
 	text-align:center;
 	padding:1em 0;
+}
+
+.foot {
+	color: #1c1c1c;
+	font-size:.8em;
 }
 
 .clearfix:after {
