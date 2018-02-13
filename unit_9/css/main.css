@@ -113,7 +113,6 @@ nav a {
 
 nav a:hover {
 	border-bottom: .1em solid #fff;
-	float:left;
 	margin:40px 12px;
 	color: #FE6359;
 }
@@ -298,7 +297,6 @@ footer {
 		margin:0 auto;
 		padding:.5em 0;
 		display:block;
-		float:none;
 		}
 
 /*	.img-social {
