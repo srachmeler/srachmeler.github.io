@@ -35,7 +35,7 @@ h2{
 
 h3{
 	font-family: "brandon-grotesque", sans-serif;
-	font-size:1em;
+	font-size:.9em;
 	font-weight:600;
 	text-transform:uppercase;
 	color: #1c1c1c;
@@ -126,7 +126,7 @@ a {
 a:hover {
 	text-decoration:none;
 	border-bottom: .1em solid #FE6359;
-	padding-bottom: .1em;
+	padding:0 0 .6em .6em;
 	color: #FE6359;
 }
 
@@ -138,22 +138,39 @@ img {
 	width:100%;
 	}
 
+.img-link {
+	border-bottom: .01em solid #fff;
+	padding:0 0 .8em .6em;
+}
+
+.img-link:hover {
+	border-bottom: .01em solid #fff;
+	padding:0 0 .8em .6em;
+}
+
 #logo {
 	width:67%;
 	padding:1em 4em;
 	}
 
-.img-link {
-	border-bottom:none;
-}
-
-.img-link:hover {
-	border-bottom:none;
-}
 
 .img-intro {
 	width:33%;
 	padding:2em 7em 0 6em;
+}
+
+.img-title {
+	display:inline;
+	float;left
+}
+
+.img-title:hover {
+	color:#FE6359;
+}
+
+.img-tag {
+	display:inline;
+	float:right;
 }
 
 aside {
@@ -195,14 +212,12 @@ section {
 	box-sizing:border-box;
 	width:50%;
 	padding: 0 0 .6em .6em;
+	border-bottom:none;
 }
 
-.project-title {
-	padding:.33em 0 .75em 0;
-}
-
-.img-title:hover {
-	color: #FE6359;
+.project:hover {
+	border-bottom:none;
+	padding:0 0 .6em .6em;
 }
 
 .img-social {
