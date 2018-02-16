@@ -7,7 +7,6 @@
 * {
 	margin:0 auto;
 	padding:0;
-	max-width:1100px;
 	}
 
 body {
@@ -18,6 +17,7 @@ body {
 	color: #022A3A;
 	line-height: 1.5em;
 	text-rendering: optimizeLegibility;
+	max-width:1100px;
 	}
 
 h1{
@@ -80,7 +80,7 @@ p{
 }
 
 .wrapper {
-	width:100%;
+	width:95%;
 	margin:0 auto;
 }
 
@@ -101,6 +101,8 @@ p{
 	}
 
 .third {
+	left:95%;
+	transform:translateX(-5%);
 	}
 
 nav {
