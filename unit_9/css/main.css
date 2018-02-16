@@ -86,7 +86,7 @@ p{
 
 .header {
 	width:inherit;
-	border-bottom: .25em solid #022A3A;
+	border-bottom: .15em solid #022A3A;
 	padding: 16px 0 0 0;
 	margin: 0 0 8px;
 	position:fixed;
@@ -124,16 +124,16 @@ nav a:hover {
 	}
 
 a {
-	border-bottom: .1em solid #FE6359;
-	padding-bottom: .1em;
+	border-bottom: .05em solid #FE6359;
+	padding-bottom: .03em;
 	text-decoration:none;
 	color:#022A3A;
 	}
 
 a:hover {
 	text-decoration:none;
-	border-bottom: .1em solid #FE6359;
-	padding-bottom: .1em;
+	border-bottom: .05em solid #FE6359;
+	padding-bottom: .03em;
 	color: #FE6359;
 	}
 
@@ -207,19 +207,19 @@ aside {
 	}
 
 .border {
-	border-bottom:.1em #022A3A solid;
+	border-bottom:.07em #022A3A solid;
 	padding-bottom:1em;
 	margin-bottom:2em;
 }
 
 .thin-border {
-	border-bottom:.05em #022A3A solid;
+	border-bottom:.03em #022A3A solid;
 	padding-bottom:1em;
 	margin-bottom:2em;
 }
 
 .bordered {
-	border-top:.05em #022A3A solid;
+	border-top:.03em #022A3A solid;
 	border-bottom:.05em #022A3A solid;
 	padding:.2em 0;
 	margin-bottom:2em;
@@ -279,12 +279,14 @@ section {
 	}
 
 .img-title {
-	position: absolute;
-	top:50%;
+	position: initial;
 	left:50%;
 	text-align:center;
-	transform:translate(-50%, -50%);
 	}
+
+h2 {
+	font-size:1em;
+}
 
 .overlay {
 	position: absolute;
@@ -396,31 +398,47 @@ footer {
 	    width:90%;
 		}
 
-    .header {
-	    width: inherit;
-	    float:none;
-		}
-
 	#logo {
 	    width: 40%;
 	    padding: 1em 15em;
 		}
 
+	.project-container {
+		box-sizing:border-box;
+		padding:.5em 0;
+	}
+
+	.project:hover .overlay {
+		display:none;
+	}
+
+	.project-img {
+		padding:.5em 0;
+	}
+
+	.project {
+		width:100%;
+		float:none;
+		padding:0;
+	}
+
 	.img-social {
 		display:none;
 		}
 
+	.img-title, .img-tag {
+		display:none;
+	}
+
 	nav {
-		font-size:1.1em;
-    	padding: 4em 0 1em;
+		font-size:.9em;
+    	padding-top: 5em;
     	line-height: .75em;
-		text-align:center;
 		}
 
 	nav a {
-		float:none;
-		margin:40px 12px 20px;
-		display:block;
+		margin: 40px 42px 20px;
+    	padding: 0 2.25em;
 		}
 
 /*	.img-social {
@@ -472,6 +490,32 @@ footer {
 
 	footer {
 		font-size:1em;
+	}
+}
+
+@media only screen and (max-width: 725px) {
+
+	.img-intro {
+	    display:none;
+	}
+
+	.header {
+    margin-bottom:10px;
+	}
+
+	.second {
+		padding:1em 0 .5em;
+		float:left;
+	}
+
+    main {
+		padding-top:200px;
+		width:100%;
+	}
+
+	aside {
+		padding-top:1em;
+		width:inherit;
 	}
 }
 
