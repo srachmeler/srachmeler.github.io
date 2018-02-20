@@ -159,6 +159,11 @@ body {
 	box-sizing:border-box;
 	}
 
+/*.col-4:nth-of-type(1) {
+	padding-left:0;
+	}*/
+
+
 .col-5 {
 	width: 41.66%;
     padding: 0 24px 0 12px;
@@ -283,7 +288,6 @@ footer {
 
 .overlay-1 {
 	opacity: 1;
-	color:none;
 	}
 
 .img-title {
@@ -307,7 +311,6 @@ footer {
     left: 10%;
     transform: translate(-5%, -50%);
 	}
-}
 
 /*  POSITIONING  POSITIONING  POSITIONING  POSITIONING  POSITIONING  */
 
@@ -326,7 +329,7 @@ footer {
 
 .fix {
 	position:fixed;
-	border-bottom: .1em solid #fff;
+/*	border-bottom: .1em solid #fff;*/
 	background:#fff;
 	width:26%;
 	padding-top:120px;
