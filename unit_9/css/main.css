@@ -155,13 +155,13 @@ body {
 
 .col-4 {
 	width: 33.33%;
-	padding:0 10px;
+	padding:0 18px;
 	box-sizing:border-box;
 	}
 
-/*.col-4:nth-of-type(1) {
+.col-4:nth-of-type(1) {
 	padding-left:0;
-	}*/
+	}
 
 
 .col-5 {
@@ -329,7 +329,6 @@ footer {
 
 .fix {
 	position:fixed;
-/*	border-bottom: .1em solid #fff;*/
 	background:#fff;
 	width:26%;
 	padding-top:120px;
