@@ -166,6 +166,10 @@ body {
 	padding-left:0;
 	}
 
+.col-4:last-of-type {
+	padding-right:0;
+}
+
 
 .col-5 {
 	width: 41.66%;
