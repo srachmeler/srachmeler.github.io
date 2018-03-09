@@ -6,11 +6,12 @@
 
 body {
 	font-family: adobe-caslon-pro, serif;
-	font-size: 15px;
+	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
 	color: #022A3A;
 	text-rendering: optimizeLegibility;
+	background-color:#FBFDFD;
 	}
 
 /*  HEADINGS & TEXT STYLES  HEADINGS & TEXT STYLES  HEADINGS & TEXT STYLES  HEADINGS & TEXT STYLES  */
@@ -21,11 +22,12 @@ h1{
     line-height: 70px;
 	font-weight: 100;
 	font-style: italic;
-	color:#022a3a; /*778692;*/
+	padding-bottom:75px;
+	color:#778692;
 	}
 
 h1 a {
-	color:#022a3a;
+	color:#778692;
 }
 
 h2 {
@@ -86,50 +88,16 @@ p{
 	margin-bottom:8px;
 	}
 
-table {
-    display: table-row;
-}
-
-th {
-    text-align:left;
-    padding:3px;
-    font-family: "brandon-grotesque", sans-serif;
-	font-weight:600;
-	text-transform:uppercase;
-	font-size:.9em;
-	letter-spacing:.1em;
-}
-
-td {
-    display: table-cell;
-    width:225px;
-    padding:3px;
-}
-
 .sub{
 	font-size:32px;
 	line-height:48px;
 	font-style:italic;
 	font-weight:100;
 	color:#022A3A;
-	padding:150px 50px 150px 0;
+	padding:0 0 40px 0;
+	margin:-15px 0 0 0;
 	float:left;
 	}
-
-.sub-2 {
-	font-size:32px;
-	line-height:48px;
-	font-style:italic;
-	font-weight:100;
-	color:#022A3A;
-	padding:0 50px 15px 0;
-	}
-
-p.small {
-	font-size: .95em;
-	line-height: 1.2em;
-	margin-bottom:8px;
-}
 
 .caption {
 	font-family: "brandon-grotesque", sans-serif;
@@ -145,12 +113,24 @@ p.small {
 	padding-bottom:24px;
 }
 
-.spacing-work {
-	padding-bottom:100px;
+ul {
+	line-height: 1.75em;
+	text-align:center;
 }
 
-.spacing:last-of-type {
-	padding-bottom:0;
+li{
+	text-rendering: optimizeLegibility;	
+	display:inline-block;
+	padding:5px;
+	word-wrap:wrap;
+	list-style-type: square;
+	border-right: 1px solid #022a3a;
+	vertical-align:top;
+	width:125px;
+}
+
+li:last-of-type{
+	border-right:none;
 }
 
 .project-title {
@@ -226,7 +206,7 @@ nav a:active {
 
 .white-bg {
 	position:fixed;
-	background:#fff; /*F7FAFB;*/
+	background:#FBFDFD;
 	height:80px;
 	z-index: 1;
 	width:100%;
@@ -236,25 +216,28 @@ nav a:active {
 	}
 
 main {
-	padding-top:140px;
-	padding-bottom:50px;
+	padding-top:150px;
+}
+.panel-1 {
+    margin: 290px 0 0;
+	border-top: 750px solid #EAE6E4;
+	border-right: 1500px solid transparent;
 }
 
-.panel-1 {
-	padding:50px 0;
-	background: #F1EEEC;
-	width:100%;
+.panel-1:last-of-type {
+	margin-bottom:0;
 }
 
 .panel-2 {
-	padding:25px 0;
-	margin:50px 0;
+	margin-top:-60px;
+	border-top: 750px solid #EAE6E4;
+	border-left: 1500px solid transparent;
 }
 
 .panel-3 {
-	padding:50px 0;
-	background: #022a3a;
-	margin-bottom:25px;
+	margin-top:-60px;
+	border-top: 750px solid #EAE6E4;
+	border-right: 1500px solid transparent;
 }
 
 .green {
@@ -319,37 +302,21 @@ main {
 	}
 
 .col-5 {
-	border-left:solid #022a3a 2px;
-	padding:0 0 0 25px;
-	margin: 0 0 0 10px;
-	width: calc(41.66% - 10px);
+	padding:0 9px;
+	margin-bottom:48px;
 	}
 
-.col-5 .col-6 {
-	margin-bottom:0;
+.col-5:nth-of-type(odd){
+	padding-left:0;
 }
 
-.col-12 .col-5 {
-	padding-top:10px;
-}
-.col-6 .col-11 {
-	border-bottom:solid #022a3a 1px;
-	padding:0 0 10px 0;
-	margin: 0 0 10px 0;
-	}
-
-svg .col-12 {
-	margin:0 auto;
-}
-
-footer .col-5 {
-	border-left:none;
-	padding:0 25px 0 0;
+.col-5:nth-of-type(even){
+	padding-right:0;
 }
 
 .col-6 {
-	padding:0 16px;
-	margin-bottom:24px;
+	padding:0 9px;
+	margin-bottom:48px;
 	}
 
 .col-6:nth-of-type(odd){
@@ -359,6 +326,10 @@ footer .col-5 {
 .col-6:nth-of-type(even){
 	padding-right:0;
 }
+
+.col-8 {
+	padding-left:24px;
+	}
 
 .col-2, .col-9, .col-10 {
 	padding-left:16px;
@@ -378,24 +349,6 @@ footer .col-5 {
 
 .col-4:nth-of-type(3n+3){
 	padding-right:0;
-}
-
-.about {
-	position:absolute;
-	top:50%;
-	left:11.5%;
-	transform: translateY(-50%);
-/*	background:#F1EEEC;*/
-}
-
-.about-2 {
-	position:absolute;
-	top:620px;
-	left:220px;
-}
-
-.col-8 h3 {
-	display:inline;
 }
 
 .clearfix:after {
@@ -431,7 +384,7 @@ footer {
 	border-top:solid #022A3A .1em;
 	width:100%;
 	padding:1em 0;
-	background-color:#022a3a;
+	background-color:#1E3C4B;
 }
 
 /*  PROJECT OVERLAY  PROJECT OVERLAY  PROJECT OVERLAY  PROJECT OVERLAY  */
@@ -442,7 +395,8 @@ footer {
 	}
 
 .project-img {
-    margin: 3px 0;
+    margin: 5px 0;
+    padding:0 4px;
 	border-bottom:none;
 	display:block;
 	width:100%;
@@ -473,31 +427,13 @@ footer {
 .overlay {
 	position: absolute;
 	bottom: 0;
+	top:0;
+	left: 0;
 	right: 0;
 	height: 100%;
 	width: 50%;
-	opacity: .95;
+	opacity: .92;
 	background-color: #FBFDFD;
-/*	border-left:solid #022a3a 2px;*/
-	}
-
-.overlay-2{
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 44.44%;
-	background:#F1EEEC;
-	opacity:.25;
-	}
-
-.overlay-2-type{
-	position: absolute;
-	top: 150px;
-	left: 50px;
-	height: 100%;
-	width: 75%;
-	opacity:1;
 	}
 
 .img-title {
@@ -571,16 +507,15 @@ footer {
 	fill:#fff;
 }
 
-.sand {
-	color:#FBFDFD;
-	fill:#FBFDFD;
-}
-
 .st0{
 	fill:#022A3A;
 	}
 
-.img-link:hover .st0:hover {
+.st0:hover {
+	fill:#F42534;
+}
+
+.img-link:hover .st0 {
 	fill:#F42534;
 }
 
@@ -703,11 +638,6 @@ button, label {
 	letter-spacing:.2em;
 }
 
-.arrow {
-	font-family: adobe-caslon-pro, serif;
-	border:none;
-}
-
 textarea {
 	height:182px;
 }
@@ -798,7 +728,7 @@ a:hover {
 	}
 
 	.title {
-		margin-top:150px;
+		padding-top:0;
 	}
 
 	.panel-1 {
