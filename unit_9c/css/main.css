@@ -261,7 +261,7 @@ img {
     border: 16px solid #fff;
     box-shadow: 1px 3px 2px #B9C0C6;
     margin: 8px;
-    width: 66.67%;
+    width: 100%;
 }
 
 .body {
@@ -347,6 +347,7 @@ h5 { /*old h6*/
 }
 
 p {
+	padding-top:.5em;
 	line-height:1.5em;
 	margin-bottom:16px;
 }
@@ -524,11 +525,15 @@ p {
 
 .col-8 {
 	width:66.67%;
-	padding:0 16px;
+	padding:0 1.5em;
 }
 
 .col-8:first-of-type {
 	padding-left:0;
+}
+
+.col-8:last-of-type {
+	padding-left:1.5em;
 }
 
 .col-9 {
@@ -560,7 +565,7 @@ p {
 }
 
 .row-2 {
-	padding:2em 0;
+	padding:1em 0 2em 0;
 }
 
 .row-4 {
@@ -568,12 +573,12 @@ p {
 }
 
 .panel-1 {
-	padding:5em 0;
+	padding:8em 0;
 	width:100%;
 }
 
-.panel-1:first-of-type {
-	padding-top:0;
+.panel-1-1 {
+	padding:2em 0 8em 0;
 }
 
 .panel-1:last-of-type {
@@ -582,7 +587,7 @@ p {
 
 .panel-2 {
 	background: #F1EEEC;
-	padding:2em 0;
+	padding:1em 0;
 	width:100%;
 }
 
