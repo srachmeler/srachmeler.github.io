@@ -6,7 +6,7 @@
 	<link rel="logo icon" href="images/SR-Favicon.ico">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
+<body class="body">
 	<header>
 		<div class="header-bg">
 			<div class="content-wrapper clearfix">
@@ -42,23 +42,37 @@
 		</div></div>
 	</header>
 	<main class="clearfix">
-		<div class="page-header">
 			<div class="content-wrapper">
-				<h1>I have a lot of thoughts on a lot of topics. When I drink coffee, it's worse.</h1></div></div>
+				<h2 class="row-1 center">I've done a lot of talking. Now it's your turn.</h2></div>
 			<div class="content-wrapper">
 				<div class="panel-1 clearfix">
 					<div class="content-wrapper">
-				      	<form action="/action_page.php">
-					        <label for="name">Full Name</label>
-					        	<input type="text" id="name" name="fullname" placeholder="Your full name">
-					       	<label for="lname">Email Address</label>
-					       		<input type="text" id="email" name="email" placeholder="Your email address">
-					       	<label for="lname">How Did You Find Me?</label>
-					       		<input type="text" id="source" name="source" placeholder="How did you find me?">
-							<label for="subject">Subject</label>
-						        <textarea id="subject" name="subject" placeholder="Leave me a note""></textarea>
-						       	<input type="submit" value="Submit">
+						<form class="col-8" name="contactform" method="post" action="send_form_email.php">
+							<table>
+								<tr><td valign="top"><label for="first_name">First Name *</label></td></tr>
+								
+								<tr><td valign="top"><input type="text" name="first_name" maxlength="50" size="30"></td></tr>
+								
+								<tr><td valign="top""><label for="last_name">Last Name *</label></td></tr>
+								
+								<tr><td valign="top"><input type="text" name="last_name" maxlength="50" size="30"></td></tr>
+								
+								<tr><td valign="top"><label for="email">Email Address *</label></td></tr>
+								
+								<tr><td valign="top"><input type="text" name="email" maxlength="80" size="30"></td></tr>
+								
+								<tr> <td valign="top"><label for="comments">Message *</label></td></tr>
+								
+								<tr><td valign="top"><textarea name="comments" maxlength="1000" cols="25" rows="6"></textarea></td></tr>
+								
+								<tr><td colspan="2"><input type="submit" value="Submit"></td></tr>
+							</table>
 						</form>
+						<div class="col-4">
+							<div class="list-item">Stephanie Rachmeler</div>
+							<div class="list-item">678.895.8178</div>
+							<div class="list-item">Atlanta, Georgia</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -72,8 +86,7 @@
 		<div class="content-wrapper clearfix">
 			<div class="row-1 clearfix">
 				<div class="col-8">
-					<h3 class="white">Email Me</h3>
-					<h2 class="white">I'd love to chat about what interests you</h2>
+					<h2 class="white row-1">I'd love to chat about what interests you</h2>
 					<form name="contactform" method="post" action="send_form_email.php">
 					<table>
 						<tr>
