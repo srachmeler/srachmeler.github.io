@@ -293,17 +293,6 @@ nav ul li a:hover {
     top: 40% ;
     right:5px;  
    } 
-
-.down {
-   	border-top-color: #022a3a;  
-    top: 40% ;
-    right:5px;  
-} 
-
-.down:hover {
-	border: 5px solid transparent;
-	border-bottom-color: #FE6359;
-}
  
 /* submenu positioning*/
 .nav ul {
